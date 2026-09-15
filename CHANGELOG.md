@@ -2,6 +2,19 @@
 
 All notable changes to the Protegrity AI Developer Edition Python project will be documented in this file.
 
+## [1.2.2] - 2026-09-11
+
+### 📦 Distribution
+- **PyPI Package**: Re-released as v1.2.2 to refresh the README rendered on PyPI.
+
+### 🧹 Cleanup
+- Removed the Anaconda badge and conda build recipe — the package is no longer distributed via Anaconda; PyPI remains the canonical distribution channel.
+- Fixed broken table-of-contents link anchors in the README.
+
+**Note**: This is a documentation/packaging-only release. No functional code changes from v1.2.1.
+
+---
+
 ## [1.2.1] - 2026-06-30
 
 This release adds first-class support for connecting `appython` to **Protegrity Team Edition / Cloud Protect**, ships a dedicated migration CLI, and broadens supported Python versions. Existing Developer Edition users see no behavior change — every new feature is opt-in via environment variables or `~/.protegrity/config.yaml`.
